@@ -1,0 +1,92 @@
+body {
+background-image: url(resources/bg_1.jpeg);
+background-attachment: fixed;
+}
+p {
+	color: 	white;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	background: linear-gradient(#0F2027,#203A43,#2C5364);
+	font-size: 35px;
+}
+.container {
+	display: grid;
+	grid-template-columns: 33% 33% 32%;
+	grid-template-rows: 10% 10% 10;
+	grid-gap: 1%;
+}
+.add_stock {
+	background-color: rgba(0,0,0,0.5);
+}
+.add_stock h2{
+	color: white;
+	background-color: #424242;
+	text-align: center;
+	font-family:'Righteous', cursive;
+}
+label {
+	margin-left: 25%;
+	font-size: 35px;
+	color:#ff3d00;
+	font-family:'Righteous', cursive;
+}
+.add_stock input {
+	width: 40%;
+	text-align: center;
+}
+.stock_details {
+	background-color: rgba(0,0,0,0.5);
+	padding-left: 50px;
+}
+.stock_details h2{
+	color: white;
+	background-color: #424242;
+	text-align: center;
+	font-family:'Righteous', cursive;
+}
+.stock_details p {
+	color:orange;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	font-size: 25px;
+}
+.remove_stock {
+	background-color: rgba(0,0,0,0.5);
+	padding-left: 50px;
+}
+.remove_stock input {
+	width: 40%;
+	text-align: center;
+	margin-left: -50px;
+}
+.remove_stock h2 {
+	color: white;
+	background-color: #424242;
+	text-align: center;
+	font-family:'Righteous', cursive;
+}
+.remove_stock select {
+	width: 112.6%;
+	text-align: center;
+	margin-left: -12.6%; 
+}
+input {
+	color: green;
+	background-color: black;
+	font-size: 20px;
+	text-align: center;
+}
+.add_button {
+	color: green;
+	background-color: black;
+}
+.remove_button {
+	color:red;
+	background-color: black;
+}
+.remove_input {
+	color: red;
+}
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stock Manager</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"> </script>
+	<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">  
+</head>
+<body>
+	<p>Stock Manager</p>
+	<div class="container">
+		<div class="add_stock">
+			<h2>Add Items here</h2>
+
+			<label>Rice</label><br>
+			<input type="number" id="rice_add" name = "rice" placeholder="Enter Ammout">
+			<button onclick="add()" class="add_button">Add to Stock</button><br>
+
+			<label>Wheat</label><br>
+			<input type="number" id="wheat_add" name = "Wheat" placeholder="Enter Ammout">
+			<button onclick="wheat_add()" class="add_button">Add to Stock</button><br>
+
+			<label>Sugar</label><br>
+			<input type="number" id="sugar_add" name = "Sugar" placeholder="Enter Ammout">
+			<button onclick="sugar_add()" class="add_button">Add to Stock</button><br>
+
+			<label>Salt</label><br>
+			<input type="number" id="salt_add" name = "salt" placeholder="Enter Ammout">
+			<button onclick="salt_add()" class="add_button">Add to Stock</button><br>
+
+			<label>Cofee</label><br>
+			<input type="number" id="cofee_add" name = "cofee" placeholder="Enter Ammout">
+			<button onclick="cofee_add()" class="add_button">Add to Stock</button><br>
+
+			<label>Oats</label><br>
+			<input type="number" id="oats_add" name = "cofee" placeholder="Enter Ammout">
+			<button onclick="oats_add()" class="add_button">Add to Stock</button><br>
+
+		</div>
+		<div class="stock_details">
+			<h2>Your Current Stock Details</h2>
+			<p id="show_details_rice"></p>
+			<p id="show_details_wheat"></p>
+			<p id="show_details_sugar"></p>
+			<p id="show_details_salt"></p>
+			<p id="show_details_cofee"></p>
+			<p id="show_details_oats"></p>
+		</div>
+		<div class="remove_stock">
+			<h2>Remove Items here</h2>	
+
+			<label>Rice</label><br>
+			<input type="number" id="rice_minus" class="remove_input" name="rice" placeholder="Enter Amount">
+			<button onclick="reduce()" class="remove_button">Update Stock</button><br>
+
+			<label>Wheat</label><br>
+			<input type="number" id="wheat_minus" class="remove_input" name = "Wheat" placeholder="Enter Ammout">
+			<button onclick="wheat_minus()" class="remove_button">Update Stock</button><br>
+
+			<label>sugar</label><br>
+			<input type="number" id="sugar_minus" class="remove_input" name = "sugar" placeholder="Enter Ammout">
+			<button onclick="sugar_minus()" class="remove_button">Update Stock</button><br>
+
+			<label>salt</label><br>
+			<input type="number" id="salt_minus" class="remove_input" name = "salt" placeholder="Enter Ammout">
+			<button onclick="salt_minus()" class="remove_button">Update Stock</button><br>
+
+			<label>cofee</label><br>
+			<input type="number" id="cofee_minus" class="remove_input" name = "cofee" placeholder="Enter Ammout">
+			<button onclick="cofee_minus()" class="remove_button">Update Stock</button><br>
+
+			<label>oats</label><br>
+			<input type="number" id="oats_minus" class="remove_input" name = "oats" placeholder="Enter Ammout">
+			<button onclick="oats_minus()" class="remove_button">Update Stock</button><br>
+		</div>
+	</div>
+</body>
+</html>
